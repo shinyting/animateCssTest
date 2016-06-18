@@ -6,11 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
-
-div {
-	width: 200px;
-	margin: 10px auto;
-	background: #ddd;
-	text-align: center;
-	padding: 10px 0px;
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.imgbox {
+	float: left;
+	margin: 10px;
 }
