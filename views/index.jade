@@ -3,11 +3,13 @@ block content
 	h1= title
 	p Welcome to #{title}
 	div.wrap
-		div.imgbox.animated.slideInLeft
-			img(src="/images/anim01.jpg")
-		div.imgbox.animated.slideInDown
-			img(src="/images/anim02.jpg")
-		div.imgbox.animated.slideInUp
-			img(src="/images/anim03.jpg")
-		div.imgbox.animated.slideInRight
-			img(src="/images/anim04.jpg")
+		button.start start
+		div.imggroup
+			div.imgbox.animated.slideInLeft
+				img(src="/images/anim01.jpg")
+			div.imgbox.animated.slideInDown
+				img(src="/images/anim02.jpg")
+			div.imgbox.animated.slideInUp
+				img(src="/images/anim03.jpg")
+			div.imgbox.animated.slideInRight
+				img(src="/images/anim04.jpg")
