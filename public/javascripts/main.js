@@ -17,9 +17,9 @@ $(function () {
 
 	$('.imgbox').on('mouseenter', function () {
 		$(this).attr('class', 'imgbox');
-		$(this).addClass('animated shake');
+		$(this).addClass('animated swing');
 	});
 	$('.imgbox').on('mouseleave', function () {
-		$(this).removeClass('shake');
+		$(this).removeClass('swing');
 	});
 })
